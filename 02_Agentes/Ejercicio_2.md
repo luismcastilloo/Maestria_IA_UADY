@@ -17,7 +17,7 @@ Estocástico porque los comandos pueden ser distintos, dinámico porque puede es
 - **Actuators:**\
 Respuesta simpultánea a través de bocina, búsqueda de información en internet, gestión de aplicaciones (abrirlas y ejecutar comandos en ellas), activación de funciones programadas como alarmas, juegos verbales internos, envío de recordatorios.
 - **Sensors:**\
-Microfono integrado, procesador de voz, historial de conversaciones, acceso a recursos y aplicaciones, lectura de base de datos.
+Micrófono integrado, historial de conversaciones, acceso a recursos y aplicaciones, bases de datos, servicios web.
 
 
 ## Aplicación 2: **Robot Aspirador Doméstico**
@@ -29,7 +29,7 @@ Habitaciones de diferentes dimensiones, obstaculos, pisos con diferentes textura
 - **Actuators:**\
 Sistema de aspiración y cepillos, moverse en diferentes direcciones, esquivar obstáculos, emitir avisos de voz, motores de desplazamiento,.
 - **Sensors:**\
-Sensor de movimiento, sensores de presencia, sensores de temperatura, acelerometros, ruedas, micrófonos, sensor infrarrojo, sensor de proximidad.
+Sensor de movimiento, sensores de presencia, sensores de temperatura, acelerometros, micrófonos, sensor infrarrojo, sensor de proximidad.
 
 ## Aplicación 3: **Sistema de recomendación de streaming**
 
@@ -38,7 +38,7 @@ Maximizar el tiempo de visualización, la satisfacción del usuario y la precisi
 - **Environment:**\
 Base de datos de contenidos, perfiles de usuarios, historial de consumo y preferencias.
 - **Actuators:**\
-Reproduce el contenido seleccionado, ofrece el menú de opciones y hace recomendaciones basadas en el tipo de consumo, generar listas personalizadas.
+Reproduce el contenido seleccionado, ofrece el menú de opciones y hace recomendaciones basadas en el tipo de consumo, generar listas personalizadas, enviar notificaciones.
 - **Sensors:**\
 Historial de reproducción, calificaciones del usuario, búsquedas, tiempo de visualización, interacciones.
 
@@ -50,18 +50,20 @@ Conducir de forma autónoma sin chocar, evitando accidentes y manteniendo seguro
 - **Environment:**\
 Entorno urbano o rural, con diferencia en caminos, presencia de obstáculos, peatones, diferencias de reglamentos viales, exposición a diferentes tipos de clima y presencia en el interior de diferente cantidad de pasajeros.
 - **Actuators:**\
-Control del volante, visión del camino, manejo de limpiaparabrisas, gestión del acelerador, freno y seguros del auto, luces, claxon.
+Control del volante, manejo de limpiaparabrisas, gestión del acelerador, freno y seguros del auto, luces, claxon.
 - **Sensors:**\
-Cámaras integradas, sensores de movimiento, radar, acelerometros, sensores de temperatura, software, gps, conexión a internet, mapas HD.
+Cámaras integradas, sensores de movimiento, radar, acelerometros, sensores de temperatura, GPS, conexión a internet, mapas HD.
 
 ## Aplicación 5: **Agente de trading algorítmico en bolsa**
 
 - **Performance:**\
 Maximizar el rendimiento ajustado al riesgo, minimizar pérdidas y ejecutar operaciones de compra y venta de manera eficiente.
 - **Environment:**\
-Diferentes sitios de internet, la bolsa de valores, casas de cambio, reportes financieros, noticias, indicadores macroeconómicos.
+Diferentes sitios de internet, la bolsa de valores, casas de cambio, reportes financieros, noticias, indicadores macroeconómicos.\
+
+Estocático por mercado variable, secuencial de acuerdo las tendencias y multiagente porque interactúa con miles de variables del mercado.
 - **Actuators:**\
-Ejectar ordenes de compra y venta, rebalancear portafolios, enviar alertas, ejecutar algoritmos estadísticos.
+Ejectar ordenes de compra y venta, rebalancear portafolios, enviar alertas.
 - **Sensors:**\
 Precio de acciones, volumen de mercado, noticias financieras, indicadores económicos, APIs.
 
@@ -71,11 +73,13 @@ Precio de acciones, volumen de mercado, noticias financieras, indicadores econó
 - **Performance:**\
 Realizar el diagnóstico más preciso al paciente basado en su historial médico, ofreciendo el mejor tratamiento a una enfermedad.
 - **Environment:**\
-Hospitales, clínicas, consultorios médicos, expedientes clínicos electrónicos, laboratorios de análisis clínicos y centros de imagenología.
+Hospitales, clínicas, consultorios médicos, expedientes clínicos electrónicos, laboratorios de análisis clínicos y centros de imagenología.\
+
+Parcialmente observable porque es una parte o un sistema de todo el cuerpo, estocástico por la variedad de casos que pueden haber y dinámico porque se mantiene en movimiento constante.
 - **Actuators:**\
 Generar diagnóstico probable, presentar nivel de confianza, recomendar estudios complementarios, sugerir tratamientos, emitir alertas.
 - **Sensors:**\
-Procesamiento de imáganes, cámaras, almacenamiento de bases de datos clínicos, resultados de laboratorio, síntomas reportados, dispositivos médicos conectados.
+Imágenes médicas, expedientes clínicos, resultados de laboratorio, síntomas reportados, dispositivos médicos conectados.
 
 ## Aplicación 7: **Dron de inspección de infraestructura**
 
@@ -86,9 +90,9 @@ Exteriores, interacción del viento, cambios de temperatura, obstáculos estáti
 
 Entorno dinámico por el movimiento constante del dron, parcialmente observable por las zonas de la estructura y estocástico por los factores externos.
 - **Actuators:**\
-Activación de las hélices y motor, sobrevolar de manera efectiva, mantener la conexión con el control, hacer tomas de vídeo o fotografía, mediciones de temperatura, longitud o reconocimiento de objetos.
+Activación de las hélices y motor, sobrevolar de manera efectiva, mantener la conexión con el control, hacer tomas de vídeo o fotografía, transmisión de datos, aterrizaje.
 - **Sensors:**\
-Sensores de temperatura, de movimiento, sensores de luz, cámaras, conexión internet o bluetooth, sensor de altitud, giroscopio. 
+Sensores de temperatura, de movimiento, sensores de luz, cámaras, conexión internet o bluetooth, sensor de altitud, giroscopio, GPS. 
 
 ## Aplicación 8: **Agente jugador de ajedrez**
 
