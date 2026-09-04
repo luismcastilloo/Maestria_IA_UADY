@@ -1,4 +1,4 @@
-# Ejercicios 01 - Aplicaciones de IA que uso o he usado
+# Ejercicio 01 - Aplicaciones de IA que uso o he usado
 
 ## Indicaciones
 
@@ -27,4 +27,4 @@ En mi caso personal, también incorporo la aplicación en mi día a día para po
 Esta es una de mis herramientas conversacionales más frecuentes de uso, específicamente por mi trabajo, por temas de licencia por Microsoft y permisos de confidencialidad.\
 Esta herramienta incorpora la inteligencia artificial quizás de forma mucho más explícita en comparación con las anteriores. De manera particular, la uso para poder apoyarme con el desarrollo de proyectos del trabajo, ya sea como guía para tener recomendaciones de cómo hacer una propuesta o cómo abordar un problema. Esto en conjunto de apoyo para generar código de la manera más eficiente cuando es necesario programar. \
 De igual manera la uso para consultar sintaxis o comandos de programas como Power BI o Excel cuando quiero realizar una función específica. \
-En mi caso, para mi trabajo también la he incorporado para tener ideas de cómo vender presentaciones orales y para saber cómo debería abordar pláticas con personas específicas de un área diferente a la mía o de un rango distinto donde es necesario adaptar el lenguaje, las prioridades y los puntos de vista que se trataran.
+En mi caso, para mi trabajo, también la he incorporado para tener ideas de cómo vender presentaciones orales y para saber cómo debería abordar pláticas con personas específicas de un área diferente a la mía o de un rango distinto donde es necesario adaptar el lenguaje, las prioridades y los puntos de vista que se trataran.
