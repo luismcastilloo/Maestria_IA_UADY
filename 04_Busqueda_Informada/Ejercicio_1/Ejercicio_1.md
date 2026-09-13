@@ -23,6 +23,14 @@ expandidos a la luz de `g`, `h` y `f`.
 | :---: | :---: |
 | ![Greedy Best First Search](Imagenes/GBF_Results.png) | ![A Star Search](Imagenes/ASTAR_Results.png) |
 
+
+### Tabla Comparativa de rendimiento
+| Algoritmo | Path | Depth | Cost | Expanded | Heuristica Usada |
+| :--- | ---: | ---: | ---: |---:| ---:|
+| Greedy Best-First (GBF) | Oradea $\rightarrow$ Sibiu $\rightarrow$ Fagaras $\rightarrow$ Bucharest $\rightarrow$ Urziceni  | 4 carreteras | 546 km | 4 nodos | Distancia Euclidiana a Urziceni |
+
+| A*Search | Oradea $\rightarrow$ Sibiu $\rightarrow$ Rimnicu Vilcea $\rightarrow$ Pitesti $\rightarrow$ Bucharest $\rightarrow$ Urziceni | 5 carreteras | 514 km | 7 nodos | Distancia Euclidiana a Urziceni |
+
 ### Reporte de prueba
 
 Después de correr los dos algoritmos de búsqueda informada, se identiica que A* encontró la ruta óptima en distancia con un costo de 514 km, aunque en comparación el algoritmo de Greedy se desvió en la ruta, decidió optar por uba ruta menos óptima de 546 km, cerca de 32 km más costosa, aunque determinó la ruta a través de 4 carreteras únicamente, a diferencia de A* que terminó ejecutando pasos en 5 carreteras.
@@ -30,3 +38,4 @@ Después de correr los dos algoritmos de búsqueda informada, se identiica que A
 La razón por la que Greedy puede devolver un camino más caro aunque la "h" sea adminisble, debido evalúa los nodos utilizando $f(n) = h(n)$ ignorando completamente el costo ya acumulado. Greedy comparó a Fagaras contra Rimnicu Vilcea guiandose únicamente por la distancia directa más corta a la meta. No consideró que el tramo acumulado para llegar a la meta a través de Fagaras terminaría sumando un costo real mayor. 
 
 Por último, respecto al comportamiento observado de $f$, sí se mantiene una consistencia en el algoritmo de A*, no se observan decrecimientos. Los valores de $f(n) = g(n) + h(n)$ a lo largo de cualquier camino nunca disminuyen, de manera que esto asegura que la primera vez que A* expande un nodo nuevo como objetivo, se tiene la garantía absoluta de haber encontrado la ruta de menor costo hacia él, sin necesidad de reevaluar nodos ya visitados.
+
