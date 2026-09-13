@@ -16,3 +16,9 @@ expandidos a la luz de `g`, `h` y `f`.
 ### Diagrama de nueva ruta
 
 ![Diagrama de ruta](Imagenes/Grafo_OrigenDestino.png)
+
+### Resultados de algoritmos de busqueda
+
+| GBF | A* |
+| :---: | :---: |
+| ![Greedy Best First Search](Imagenes/GBF_Results.png) | ![A Star Search](Imagenes/ASTAR_Results.png) |
