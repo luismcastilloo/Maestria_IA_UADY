@@ -20,9 +20,20 @@ y analizar diferencias de camino, costo, profundidad y nodos expandidos.
 | ![Depth Limited Search](Imagenes/DLS_Results_L4.png) | ![Iterative Deepening Search](Imagenes/IDS_Results.png) |
 
 
+### Tabla Comparativa de rendimiento
+| Algoritmo | Path | Depth | Cost | Expanded |
+| :--- | ---: | ---: | ---: |---:|
+| BFS | Oradea → Sibiu → Fagaras → Bucharest → Urziceni | 4 carreteras | 546 km | 8 nodos |
+| UCS | Oradea → Sibiu → Rimnicu Vilcea → Pitesti → Bucharest → Urziceni | 5 carreteras | 514 km | 13 nodos |
+| DFS | Oradea → Sibiu → Arad → Timisoara → Lugoj → Mehadia → Drobeta → Craiova → Pitesti → Bucharest → Urziceni | 10 carreteras | 1109 km | 11 nodos |
+| DLS (limit=2) | NA | NA | NA | 3 nodos |  
+| DLS (limit=4) | Oradea → Sibiu → Fagaras → Bucharest → Urziceni | 4 carreteras | 546 km | 7 nodos |
+| IDS | Oradea → Sibiu → Fagaras → Bucharest → Urziceni | 4 carreteras | 546 km | 18 nodos |
+
+
 ### Reporte de prueba
 
-Después de correr todos los algoritmos de búsqueda, se idnetifica que BFS, con su búsqueda por anchura, sí logró encontrar el camino con menor número de carreteras; 4 en este caso. Esto favorecido por su metodología de explorar el grafo nivel a nivel sin dar algún paso adicional que no garantice primero poder hallar la solución con menor cantidad de pasos.
+Después de correr todos los algoritmos de búsqueda no informada, se idnetifica que BFS, con su búsqueda por anchura, sí logró encontrar el camino con menor número de carreteras; 4 en este caso. Esto favorecido por su metodología de explorar el grafo nivel a nivel sin dar algún paso adicional que no garantice primero poder hallar la solución con menor cantidad de pasos.
 
 No obstante, entre los resultados de BFS se reporta un mayor costo de distancia con respecto UCS que intenta optimizar la distancia, a pesar de generar un paso adicional. UCS toma una ruta de 5 carreeras hacia Urziceni, encontrando el camino con menor distancia con 514 km, reduciendo 32 km vs BFS.
 
