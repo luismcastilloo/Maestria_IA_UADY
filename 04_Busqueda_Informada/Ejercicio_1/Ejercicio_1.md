@@ -27,8 +27,7 @@ expandidos a la luz de `g`, `h` y `f`.
 ### Tabla Comparativa de rendimiento
 | Algoritmo | Path | Depth | Cost | Expanded | Heuristica Usada |
 | :--- | ---: | ---: | ---: |---:| ---:|
-| Greedy Best-First (GBF) | Oradea $\rightarrow$ Sibiu $\rightarrow$ Fagaras $\rightarrow$ Bucharest $\rightarrow$ Urziceni  | 4 carreteras | 546 km | 4 nodos | Distancia Euclidiana a Urziceni |
-
+| Greedy Best-First (GBF) | Oradea $\rightarrow$ Sibiu $\rightarrow$ Fagaras $\rightarrow$ Bucharest $\rightarrow$ Urziceni  | 4 carreteras | 546 km | 4 nodos | Distancia Euclidiana a Urziceni| 
 | A*Search | Oradea $\rightarrow$ Sibiu $\rightarrow$ Rimnicu Vilcea $\rightarrow$ Pitesti $\rightarrow$ Bucharest $\rightarrow$ Urziceni | 5 carreteras | 514 km | 7 nodos | Distancia Euclidiana a Urziceni |
 
 ### Reporte de prueba
