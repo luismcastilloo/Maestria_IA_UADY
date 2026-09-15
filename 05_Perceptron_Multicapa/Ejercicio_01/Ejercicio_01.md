@@ -30,4 +30,5 @@ Para el caso del Perceptron Multicapa de Numpy, al agregar las capas a la red, e
 El modelo ejecutado con Keras muestra diferencias menos drásticas entre sí, específicamente, con la agregación de las capas ocultas, la gráfica de pérdida muestra una reducción del error que al principio desciende de una forma más rápida previo a $epoch= 100$, pero a partir de  $epoch= 200$ parece aplanarse y no logra reducirse más, se queda por arriba de 0.2.\
 Se atribuye una convergencia en un mínimo local o capacidad bloqueada por tasa de aprendizaje. Al agregar más parámetros, la superficie de pérdida se vuelve mucho más compleja. Con la misma tasa de aprendizaje (learning rate), el modelo quedó atrapado prematuramente en un mínimo local.
 
-Al agregar capacidad (capas) a una red neuronal incrementa la complejidad del espacio de búsqueda de parámetros. Sin ajustar las funciones de activación o la tasa de aprendizaje, se presentan dos fenómenos: Gradientes desvanecidos (retraso en el aprendizaje) y Convergencia Prematura en Mínimos Subóptimos.
+Al agregar capacidad (capas) a una red neuronal incrementa la complejidad del espacio de búsqueda de parámetros. Sin ajustar las funciones de activación o la tasa de aprendizaje, se presentan dos fenómenos: gradientes desvanecidos y convergencia prematura en mínimos subóptimos.
+
