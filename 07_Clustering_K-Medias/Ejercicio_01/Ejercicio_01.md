@@ -18,4 +18,8 @@ silueta se mueven hacia **\(k = 5\)**.
 | Imagen Silhoutte Original | Imagen Silhoutte Modificado|
 | ![Imagen Silhoutte Original](Imagenes/Silhoutte_Original.png) | ![Imagen Silhoutte Modificado](Imagenes/Silhoutte_Modificado.png) |
 
+### Reporte de prueba
 
+Antes de resaltar los resultados de la prueba, es importante mencionar que la intención en la configuración de los blobs para el scattering fue pensado para poder ejemplificar la dinámica del modelo a través de grupos bien segmentados y repartidos homogeneamente en el espacio; de manera que el modelo pudiera adaptarse bien con la implementación del clustering.
+
+Al graficar los resultados con la Voronoi se identifican los clusters con los centroides bastante bien ubicados aglomerando la mayor parte de los conjuntos de la mejor manera, incluso mostrando la Voronoi con segmentaciones casi proporcionales. El método del codo con el método modificado muestra justo que esa separacióm homogenea entre los blobs permite al modelo asignar los clusters de la forma más ideal con $K=5$ porque cada uno está muy bien definido y no sería necesario asignar otro cluster adicional que hiciera la diferencia, por eso el codo, el punto de inflexión con la incercia, termina siendo con $K=5$. Mismo caso con el método de Silhoutte que termina siendo una doble comprobación, debido a las circunstancias ideales para las que se ejecuta el modelo, y que ejemplefican muy bien la teoría, tanto del clustering como de los métodos de optimización. 
